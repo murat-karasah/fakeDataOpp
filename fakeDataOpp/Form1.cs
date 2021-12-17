@@ -29,7 +29,6 @@ namespace fakeDataOpp
                 ogr.telefon = FakeData.PhoneNumberData.GetPhoneNumber();
                 olist.Add(ogr);
             }
-
             dataGridView1.DataSource = olist;
         }
     }
